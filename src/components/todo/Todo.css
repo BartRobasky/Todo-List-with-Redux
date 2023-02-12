@@ -1,0 +1,80 @@
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.todo-item p {
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.todo-item .todo-btns button {
+    margin-left: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.todo-item .todo-btns .btn-edit {
+    background-color: rgb(255, 170, 0);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.todo-item .todo-btns .btn-edit:hover {
+    background-color: rgb(255, 221, 0);
+}
+
+.todo-item .todo-btns .btn-delete {
+    background-color: rgb(198, 0, 0);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.todo-item .todo-btns .btn-delete:hover {
+    background-color: red;
+}
+
+.update-container {
+    padding: 1rem;
+}
+
+.update-container .input-update {
+    background: transparent;
+    border: 1px solid #524f4f;
+    padding: 10px;
+    color: #fff;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.update-container .updatetodo-btn {
+    padding: 10px;
+    background: linear-gradient(171deg, rgb(210, 165, 3) 28%, rgb(255, 60, 0) 100%);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.update-container .updatetodo-btn:hover {
+    background: linear-gradient(171deg, rgb(232, 182, 1) 28%, rgb(255, 128, 0) 100%);
+}

@@ -1,0 +1,31 @@
+.formAdd-todo {
+    padding: 1rem;
+}
+
+.formAdd-todo input {
+    background: transparent;
+    border: 1px solid #524f4f;
+    padding: 10px;
+    color: #fff;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+.formAdd-todo button {
+    padding: 10px;
+    background: rgb(47, 0, 167);
+    background: linear-gradient(171deg, rgba(47, 0, 167, 1) 28%, rgba(255, 0, 215, 1) 100%);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.formAdd-todo button:hover {
+    background: greenyellow;
+}
